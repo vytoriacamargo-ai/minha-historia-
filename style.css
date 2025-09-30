@@ -1,8 +1,15 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+:root{ 
     /* CSS HEX */
---honeydew: #f1faeeff;
---non-photo-blue: #a8dadcff;
---cerulean: #457b9dff;
---berkeley-blue: #1d3557ff;
+--azul: rgb(55, 120, 218);
+--azul-forte: rgb(38, 0, 255);
+--rosa: rgb(255, 0, 242);
+--rosa-choque: rgb(255, 0, 170);
+--titulo: "Dancing Script", cursive;
+--texto: "Anton", sans-serif;
+}
 
+body{
+    background-color: var(--azul);
+    font-family: var(--texto);
 }
